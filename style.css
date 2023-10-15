@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(13, 207, 213);
+}
+.container{
+    width: 300px;
+    height:350px ;
+    border-radius: 10px;
+    background-color: white;
+}
+#month{
+    width: 100%;
+    height: 20%;
+    padding-top: 5px;
+    color: white;
+    background-color: rgba(245, 28, 8, 0.961);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: cursive;
+}
+#days{
+    width: 100%;
+    height: 20%;
+    padding-top: 30px;
+   color: gray;
+    text-align: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: cursive;
+}
+#date{
+    width: 100%;
+    height: 40%;
+    padding: auto;
+    text-align: center;
+    
+    justify-content: center;
+    font-size: 70px;
+    font-weight: 800;
+    font-family: cursive;
+    padding-top: 20px; 
+}
+#year{
+    width: 100%;
+    height: 20%;
+    padding: auto;
+    color: rgb(87, 85, 85);
+    text-align: center;
+    
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: cursive;
+    padding-top: 5px; 
+}
